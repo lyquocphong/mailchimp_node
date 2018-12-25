@@ -1,0 +1,29 @@
+{
+  "name": "mailchimp_node",
+  "version": "1.0.0",
+  "description": "Simple newsletter app using mailchimp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyquocphong/mailchimp_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyquocphong/mailchimp_node/issues"
+  },
+  "homepage": "https://github.com/lyquocphong/mailchimp_node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
